@@ -1,0 +1,54 @@
+.box-large {
+    width: 100%;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .phoneList{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color: #dceaf7;
+  }
+  .phoneList:hover{
+    background-color: #cddbe7;
+  }
+  .phone-name{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .over-button{
+    display: flex;
+  }
+
+  .button-edit{
+    color: #9e276e;
+    border-radius: 8px;
+    border-color: #9e276e;
+    background-color: #f2cfee;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .button-buy{
+    color: #9e276e;
+    border-radius: 8px;
+    border-color: #9e276e;
+    background-color: #f2cfee;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #c0a9be;
+  }
+  
